@@ -17,7 +17,7 @@ package net.sourceforge.pinyin4j;
 
 
 import java.io.IOException;
-import javax.annotation.Nullable;
+import jakarta.annotation.Nullable;
 import net.sourceforge.pinyin4j.multipinyin.Trie;
 import lombok.extern.slf4j.Slf4j;
 
