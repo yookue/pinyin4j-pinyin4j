@@ -22,7 +22,7 @@
 
     <groupId>com.yookue.forkextension.pinyin4j</groupId>
     <artifactId>pinyin4j</artifactId>
-    <version>2.6.0</version>
+    <version>2.6.1</version>
 
     <name>${project.artifactId}</name>
     <description>Fork Extension of Pinyin4j</description>
@@ -48,8 +48,8 @@
         <project.reporting.outputEncoding>${file.encoding}</project.reporting.outputEncoding>
 
         <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
-        <lombok.version>1.18.36</lombok.version>
-        <slf4j.version>2.0.16</slf4j.version>
+        <lombok.version>[1.18.36,)</lombok.version>
+        <slf4j.version>[2.0.16,)</slf4j.version>
 
         <!-- shaded versions -->
         <jpinyin.version>1.1.8</jpinyin.version>
@@ -81,7 +81,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>[${lombok.version},)</version>
+            <version>${lombok.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -93,7 +93,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>[${slf4j.version},)</version>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
