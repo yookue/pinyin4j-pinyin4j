@@ -48,8 +48,8 @@
         <project.reporting.outputEncoding>${file.encoding}</project.reporting.outputEncoding>
 
         <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
-        <lombok.version>[1.18.36,)</lombok.version>
-        <slf4j.version>[2.0.16,)</slf4j.version>
+        <lombok.version>1.18.36</lombok.version>
+        <slf4j.version>2.0.16</slf4j.version>
 
         <!-- shaded versions -->
         <jpinyin.version>1.1.8</jpinyin.version>
